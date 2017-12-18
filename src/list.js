@@ -6,8 +6,12 @@ const List = (() => {
   return class List {
     constructor(title) {
       //your code here
+      this.title = title
+      this.id = id++
       // NOTE: How can we use the private id variable to auto increment list ids🤔?
+      store.lists.push(this)
     }
-  }
 
+
+}
 })()
